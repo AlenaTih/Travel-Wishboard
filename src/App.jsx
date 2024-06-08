@@ -1,11 +1,20 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import reactLogo from "./assets/react.svg"
 import viteLogo from "/vite.svg"
-import Data from "./data.jsx"
+import Card from "./Card.jsx"
+import data from "./data.js"
 import "./App.css"
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  const cards = data.map(item => {
+    return (
+      <Card
+        key={item.id}
+        item={item}
+      />
+    )
+  })
 
   return (
     <div className="app">
@@ -14,8 +23,8 @@ function App() {
         <h1>Travel Wishboard</h1>
       </header>
 
-      <main>
-
+      <main className="main">
+        {cards}
       </main>
     </div>
   )
