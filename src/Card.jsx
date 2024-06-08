@@ -1,5 +1,6 @@
 import React from "react"
 import SpringNewZealand from "./assets/Spring-new-zealand.png"
+import LocationPin from "./assets/location-pin.png"
 
 function Card(props) {
     return (
@@ -10,13 +11,16 @@ function Card(props) {
             </div>
             <div className="card-info">
                 <div className="location">
-                    <p>{props.item.location}</p>
+                    <div className="location-country">
+                        <img src={LocationPin} className="location-pin" alt="Location pin"></img>
+                        <p>{props.item.location}</p>
+                    </div>
                     <a href={props.item.googleMapsUrl}>View on Google Maps</a>
                 </div>
 
                 <h2>{props.item.title}</h2>
                 <h4>{props.item.startDate} - {props.item.endDate}</h4>
-                <p>{props.item.description}</p>
+                <p className="description">{props.item.description}</p>
 
             </div>
         </div>
