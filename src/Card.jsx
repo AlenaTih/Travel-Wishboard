@@ -6,8 +6,8 @@ function Card(props) {
     return (
         <div className="card">
             <div className="card-image-container">
-                {/* <img src={props.item.imageUrl}></img> */}
-                <img src={SpringNewZealand} className="card-image"></img>
+                <img src={props.item.imageUrl} className="card-image"></img>
+                {/* <img src={SpringNewZealand} className="card-image"></img> */}
             </div>
             <div className="card-info">
                 <div className="location">
@@ -15,11 +15,11 @@ function Card(props) {
                         <img src={LocationPin} className="location-pin" alt="Location pin"></img>
                         <p>{props.item.location}</p>
                     </div>
-                    <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+                    {/* <a href={props.item.googleMapsUrl}>View on Google Maps</a> */}
                 </div>
 
                 <h2>{props.item.title}</h2>
-                <h4>{props.item.startDate} - {props.item.endDate}</h4>
+                {/* <h4>{props.item.startDate} - {props.item.endDate}</h4> */}
                 <p className="description">{props.item.description}</p>
 
             </div>
