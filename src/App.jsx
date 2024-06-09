@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import Card from "./Card.jsx"
+import Header from "./components/Header.jsx"
+import Card from "./components/Card.jsx"
 import data from "./data.js"
-import Logo from "./assets/logo.png"
 import "./App.css"
 
 function App() {
@@ -18,8 +18,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <img src={Logo} className="logo" alt="Logo"></img>
-        <h1 className="header-title">Travel Wishboard</h1>
+        <Header />
       </header>
 
       <main className="main">
