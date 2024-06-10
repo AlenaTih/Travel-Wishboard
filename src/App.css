@@ -28,7 +28,6 @@
   align-items: center;
   width: 100%;
   overflow-x: hidden; /* Prevents horizontal scrolling */
-  /* padding: 2.5rem; */
   padding: 0;
 }
 
