@@ -32,7 +32,15 @@ const Data = [
         location: "United Kingdom",
         description: "Stonehenge is a prehistoric monument in Wiltshire, England. One of the most famous landmarks in the UK, it consists of a ring of standing stones, each around 4 meters high, 2.1 meters wide, and weighing approximately 25 tons. Its exact purpose remains a mystery.",
         imageUrl: springNewZealand
-    }
+    },
+    {
+        id: 4,
+        title: "Great Barrier Reef",
+        location: "Australia",
+        description: "The Great Barrier Reef is the world's largest coral reef system, located in the Coral Sea, off the coast of Queensland, Australia. It is composed of over 2,900 individual reefs and 900 islands stretching over 2,300 kilometers (1,400 miles). The reef is renowned for its breathtaking marine biodiversity and is a UNESCO World Heritage Site.",
+        imageUrl: springNewZealand
+      }
+      
 ]
 
 export default Data
