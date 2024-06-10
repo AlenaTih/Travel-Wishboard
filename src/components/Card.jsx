@@ -10,17 +10,17 @@ function Card(props) {
                 {/* <img src={SpringNewZealand} className="card-image"></img> */}
             </div>
             <div className="card-info">
-                <div className="location">
-                    <div className="location-country">
+                <div className="card-location-container">
+                    <div className="card-location-country">
                         <img src={LocationPin} className="location-pin" alt="Location pin"></img>
-                        <p>{props.item.location}</p>
+                        <p className="card-location">{props.item.location}</p>
                     </div>
                     {/* <a href={props.item.googleMapsUrl}>View on Google Maps</a> */}
                 </div>
 
-                <h2>{props.item.title}</h2>
+                <h2 className="card-title">{props.item.title}</h2>
                 {/* <h4>{props.item.startDate} - {props.item.endDate}</h4> */}
-                <p className="description">{props.item.description}</p>
+                <p className="card-description">{props.item.description}</p>
 
             </div>
         </div>
