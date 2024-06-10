@@ -37,7 +37,7 @@ const Data = [
         id: 4,
         title: "Great Barrier Reef",
         location: "Australia",
-        description: "The Great Barrier Reef is the world's largest coral reef system, located in the Coral Sea, off the coast of Queensland, Australia. It is composed of over 2,900 individual reefs and 900 islands stretching over 2,300 kilometers (1,400 miles). The reef is renowned for its breathtaking marine biodiversity and is a UNESCO World Heritage Site.",
+        description: "The Great Barrier Reef is the world’s largest coral reef system, located in the Coral Sea, off the coast of Queensland, Australia. It is composed of over 2,900 individual reefs and 900 islands stretching over 2,300 kilometers (1,400 miles). The reef is renowned for its breathtaking marine biodiversity and is a UNESCO World Heritage Site.",
         imageUrl: springNewZealand
       }
       
