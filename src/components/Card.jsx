@@ -1,6 +1,6 @@
 import React from "react"
-import SpringNewZealand from "../assets/spring-new-zealand.png"
-import LocationPin from "../assets/location-pin.png"
+// import SpringNewZealand from "../assets/spring-new-zealand.png"
+// import LocationPin from "../assets/location-pin.png"
 
 function Card(props) {
     return (
