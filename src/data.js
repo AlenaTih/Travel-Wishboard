@@ -1,4 +1,4 @@
-import springNewZealand from "./assets/spring-new-zealand.png"
+// import springNewZealand from "./assets/spring-new-zealand.png"
 import milfordSound from "./assets/milford-sound.png"
 import eiffelTower from "./assets/eiffel-tower.png"
 import stonehenge from "./assets/stonehenge.png"
