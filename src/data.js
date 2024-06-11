@@ -21,7 +21,7 @@ const Data = [
         id: 1,
         title: "Milford Sound",
         location: "New Zealand",
-        description: "Milford Sound is a fiord in the southwest of New Zealand’s South Island, within Fiordland National Park. Known for its towering Mitre Peak, rainforests, and waterfalls like Stirling and Bowen falls, it's one of the most beautiful places in the world and a top tourist destination.",
+        description: "Milford Sound is a fiord in the southwest of New Zealand’s South Island, within Fiordland National Park. Known for its towering Mitre Peak, rainforests, and waterfalls like Stirling and Bowen falls, it is one of the most beautiful places in the world and a top tourist destination.",
         imageUrl: milfordSound,
         alt: "Milford Sound"
     },
