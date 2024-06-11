@@ -30,6 +30,10 @@
   margin: 1rem 0 2rem;
 }
 
+.card-description {
+  text-wrap: balance;
+}
+
 .logo {
   color: #F7EFE2;
   font-size: 1.125rem;
